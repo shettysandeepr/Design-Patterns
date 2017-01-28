@@ -12,6 +12,5 @@ public class BuilderPatternExample {
 		builder.append(42);
 
 		System.out.println(builder.toString());
-//		System.out.println(builder.reverse());
 	}
 }
