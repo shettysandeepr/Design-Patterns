@@ -3,6 +3,7 @@ package com.learning.Singleton;
 public class DBSingletonTest {
 
 	public static void main(String[] args) {
+		
 		DBSingleton dbSingleton = DBSingleton.getInstance();
 		System.out.println(dbSingleton.toString());
 
@@ -12,6 +13,5 @@ public class DBSingletonTest {
 		if (dbSingleton == anotherInstance) {
 			System.out.println("They are the same instance");
 		}
-
 	}
 }
